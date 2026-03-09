@@ -1,0 +1,234 @@
+\documentclass[10pt,a4paper]{article}
+
+% ================================
+% CONFIGURACIÓN DEL DOCUMENTO
+% DOCUMENT CONFIGURATION
+% ================================
+
+\usepackage[a4paper,margin=1.6cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{parskip}
+
+% Color principal del CV
+% Main CV color
+\definecolor{main}{RGB}{0,70,140}
+
+% Estilo de los títulos de sección
+% Section title style
+\titleformat{\section}
+{\large\bfseries\color{main}}
+{}{0em}{}[\titlerule]
+
+% Estilo de listas
+% List formatting
+\setlist[itemize]{noitemsep, topsep=2pt}
+
+\begin{document}
+	
+	% ======================================================
+	% HEADER / CABECERA
+	% Sustituir con tus datos personales
+	% Replace with your personal information
+	% ======================================================
+	
+	\begin{minipage}{0.75\textwidth}
+		
+		{\Huge \textbf{FULL NAME}}
+		
+		City, Country \\
+		Phone number \\
+		\href{mailto:email@example.com}{email@example.com} \\
+		\href{https://linkedin.com/in/yourprofile}{LinkedIn}
+		
+	\end{minipage}
+	\begin{minipage}{0.25\textwidth}
+		
+		% FOTO (opcional)
+		% Photo (optional)
+		
+		\begin{flushright}
+			\includegraphics[width=3cm]{photo.jpg}
+		\end{flushright}
+		
+	\end{minipage}
+	
+	\vspace{0.6cm}
+	
+	% ======================================================
+	% PERFIL PROFESIONAL
+	% PROFESSIONAL SUMMARY
+	% Breve descripción de tu perfil
+	% Short description of your profile
+	% ======================================================
+	
+	\section*{Professional Profile}
+	
+	Short paragraph describing:
+	
+	• Your role (e.g. Cybersecurity Engineer)  
+	• Your specialization  
+	• Your main technologies  
+	
+	Example:
+	
+	Cybersecurity professional specialized in vulnerability analysis, security monitoring and infrastructure protection. Experience working with network security technologies, SOC tools and cloud environments.
+	
+	% ======================================================
+	% EDUCACIÓN
+	% EDUCATION
+	% ======================================================
+	
+	\section*{Education}
+	
+	\textbf{Degree or Certification}  
+	University or Institution  
+	Year – Year
+	
+	\textbf{Second Degree or Studies}  
+	University or Institution  
+	Year – Year
+	
+	% ======================================================
+	% CERTIFICACIONES
+	% CERTIFICATIONS
+	% ======================================================
+	
+	\textbf{Certifications}
+	
+	\begin{itemize}
+		
+		% Añadir certificaciones relevantes
+		% Add relevant certifications
+		
+		\item Certification Name – Organization
+		\item Certification Name – Organization
+		
+	\end{itemize}
+	
+	% ======================================================
+	% EXPERIENCIA PROFESIONAL
+	% PROFESSIONAL EXPERIENCE
+	% ======================================================
+	
+	\section*{Professional Experience}
+	
+	\textbf{Job Title — Company Name}
+	
+	Year – Present
+	
+	\begin{itemize}
+		
+		% Describe responsabilidades principales
+		% Describe main responsibilities
+		
+		\item Responsibility or achievement
+		\item Responsibility or achievement
+		\item Responsibility or achievement
+		
+	\end{itemize}
+	
+	\textit{Technologies: Technology1, Technology2, Technology3}
+	
+	% ======================================================
+	% HABILIDADES TÉCNICAS
+	% TECHNICAL SKILLS
+	% ======================================================
+	
+	\section*{Technical Skills}
+	
+	\textbf{Security}
+	
+	\begin{itemize}
+		
+		\item Vulnerability assessment
+		\item Penetration testing
+		\item Security monitoring
+		
+	\end{itemize}
+	
+	\textbf{Tools}
+	
+	\begin{itemize}
+		
+		\item Nmap
+		\item Burp Suite
+		\item Metasploit
+		\item Wireshark
+		
+	\end{itemize}
+	
+	\textbf{Networking}
+	
+	\begin{itemize}
+		
+		\item Firewalls
+		\item VLAN
+		\item VPN
+		\item IPsec
+		
+	\end{itemize}
+	
+	\textbf{Operating Systems}
+	
+	\begin{itemize}
+		
+		\item Linux
+		\item Windows
+		
+	\end{itemize}
+	
+	\textbf{Cloud}
+	
+	\begin{itemize}
+		
+		\item AWS
+		\item Azure
+		\item VPS management
+		
+	\end{itemize}
+	
+	\textbf{Programming}
+	
+	\begin{itemize}
+		
+		\item Python
+		\item Bash
+		
+	\end{itemize}
+	
+	% ======================================================
+	% PROYECTOS
+	% PROJECTS
+	% ======================================================
+	
+	\section*{Projects}
+	
+	\textbf{Project Name}
+	
+	\begin{itemize}
+		
+		\item Short description of the project
+		\item Technologies used
+		\item Achievements or results
+		
+	\end{itemize}
+	
+	% ======================================================
+	% IDIOMAS
+	% LANGUAGES
+	% ======================================================
+	
+	\section*{Languages}
+	
+	\begin{itemize}
+		
+		\item Language — Level
+		\item Language — Level
+		
+	\end{itemize}
+	
+\end{document}
